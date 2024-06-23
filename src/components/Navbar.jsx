@@ -27,7 +27,7 @@ function Navbar() {
          >
             <div className="flex md:flex-row flex-col gap-10  md:gap-3 lg:gap-7 items-center text-lg md:text-base lg:text-lg text-white ">
 
-               <Link to="/"
+               <Link to="/escape-and-explore"
                   className="hover:underline underline-offset-8"
                >
                   Home
