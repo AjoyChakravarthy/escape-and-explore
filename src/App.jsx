@@ -1,5 +1,4 @@
 import {
-  AbortedDeferredError,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
@@ -10,9 +9,6 @@ import SinglePage from './components/pages/SinglePage';
 import ProfilePage from './components/ProfilePage';
 import HomeLayout from './components/HomeLayout';
 import SignUp from './components/pages/SignUp';
-import Destination from './components/Destination';
-import Testimonials from './components/Testimonials';
-import Portfolio from "./components/Portfolio";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Discover from "./components/pages/Discover";
@@ -26,7 +22,7 @@ function App() {
         <Layout />
       , children: [
         {
-          path: "/",
+          path: "/escape-and-explore/",
           element: <HomeLayout />
         },
         {
