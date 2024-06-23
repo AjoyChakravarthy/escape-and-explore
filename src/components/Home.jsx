@@ -17,7 +17,7 @@ function Home({
   return (
     <div
       {...props}
-      className="relative top-0 w-full h-[100%]"
+      className="relative top-0 w-full h-[100vh]"
     >
       <div className="absoluten h-[100%] w-[100%]">
         <video
