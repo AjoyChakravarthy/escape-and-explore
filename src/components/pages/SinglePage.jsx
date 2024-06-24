@@ -11,12 +11,12 @@ import Map from "../Map";
 
 function SinglePage() {
    return (
-      <div className="flex flex-col md:flex-row  flex-3  xl:max-w-[1280px] mx-auto overflow-hidden">
-         <div className="pt-[100px] md:pt-[120px] flex flex-col gap-8 md:w-[60%]   md:h-[100vh]  overflow-y-scroll">
+      <div className="flex flex-col md:flex-row h-full flex-3 xl:max-w-[1280px] mx-auto overflow-hidden">
+         <div className="pt-[100px] md:pt-[120px] flex flex-col gap-10 md:w-[60%]  h-full  overflow-y-scroll">
             <div className="max-h-[50%]">
                <Slider images={singlePostData.images} />
             </div>
-            <div className="flex justify-between  items-center mt-7 mx-5">
+            <div className="flex justify-between  items-center mt-7 mx-5 ">
                <div className="flex flex-col gap-4">
                   <h1 className="text-lg md:text-xl font-semibold">
                      {singlePostData.name}
@@ -30,7 +30,7 @@ function SinglePage() {
                      <b>₹ {singlePostData.price}</b>
                   </p>
                </div>
-               <div className="w-[120px] h-[120%] bg-cyan-200 flex flex-col items-center justify-center rounded-xl">
+               <div className="w-[120px] bg-cyan-200 flex flex-col items-center justify-center rounded-xl">
                   <span className="text-sm">Guide</span>
                   <img
                      src={guide.image}
@@ -45,7 +45,7 @@ function SinglePage() {
             </div>
          </div>
 
-         <div className="flex-2 md:w-[40%] pt-3 md:pt-[120px] bg-cyan-200 px-3 md:h-[100vh] pb-5 overflow-y-scroll">
+         <div className="flex-2 md:w-[40%] pt-3 md:pt-[120px] bg-cyan-200 px-3 md:h-full pb-5 soverflow-y-scroll">
             <div className="flex flex-col gap-1 md:gap-5">
                <h1 className="text-xl font-semibold">General</h1>
                <div className="bg-cyan-100 flex flex-col gap-2 p-5 my-3 rounded-xl text-sm">

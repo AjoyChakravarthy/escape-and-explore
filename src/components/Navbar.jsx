@@ -13,7 +13,7 @@ function Navbar() {
    return (
       <div className="flex justify-between items-center px-1 md:px-3 py-5  w-full fixed z-[9999] backdrop-blur-lg border-b-2 bg-black/50 ">
          <div className="w-[65px] md:w-[85px] ">
-            <Link to="/">
+            <Link to="/escape-and-explore">
                <img
                   src={assets.logo}
                   alt="Logo"
